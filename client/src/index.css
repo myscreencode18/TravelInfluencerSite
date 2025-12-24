@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+
+
+/* ================================
+   GLOBAL THEME SYSTEM
+================================ */
+
+@theme {
+  /* ===== Brand Colors ===== */
+  --color-primary: #0ea5a4;      /* Travel Teal (Brand) */
+  --color-secondary: #0a0a0a;    /* Almost Black */
+  --color-accent: #f97316;      /* Sunset Accent */
+  --color-tertiary: #e5e7eb;    /* Soft Gray */
+
+  /* ===== Semantic Colors ===== */
+  --color-bg: #f9fafb;
+  --color-surface: #ffffff;
+  --color-text: #0f172a;
+  --color-muted: #64748b;
+
+  /* ===== Typography ===== */
+  /* --font-display: "Clash Display", sans-serif;
+  --font-body: "Inter", sans-serif; */
+
+  /* ===== Layout ===== */
+  --container-max: 1280px;
+
+  /* ===== Spacing ===== */
+  --spacing-page: 5rem;
+  --spacing-section: 4rem;
+
+  /* ===== Radius ===== */
+  --radius-soft: 14px;
+  --radius-round: 9999px;
+
+  /* ===== Shadow ===== */
+  --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* ================================
+   BASE STYLES
+================================ */
+
+
